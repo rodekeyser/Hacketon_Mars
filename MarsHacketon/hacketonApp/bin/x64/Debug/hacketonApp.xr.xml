@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="ChartValues" />
+    <RootPropertyPathName Name="DateTimeFormatter" />
+    <RootPropertyPathName Name="AxisMax" />
+    <RootPropertyPathName Name="AxisMin" />
+    <RootPropertyPathName Name="AxisStep" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application">
+      <RootProperty Name="RequestedTheme" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Background" />
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="hacketonApp.View.Temperature" />
+    <RootType FullName="hacketonApp.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="LiveCharts.Uwp.CartesianChart">
+      <RootProperty Name="Series" />
+      <RootProperty Name="AxisX" />
+    </RootType>
+    <RootType FullName="LiveCharts.Uwp.LineSeries">
+      <RootProperty Name="Values" />
+      <RootProperty Name="PointGeometrySize" />
+      <RootProperty Name="StrokeThickness" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
+    <RootType FullName="LiveCharts.Uwp.Axis">
+      <RootProperty Name="LabelFormatter" />
+      <RootProperty Name="MaxValue" />
+      <RootProperty Name="MinValue" />
+      <RootProperty Name="Separator" />
+    </RootType>
+    <RootType FullName="LiveCharts.Uwp.Separator">
+      <RootProperty Name="Step" />
+    </RootType>
+  </Roots.RootTypes>
+</Roots>

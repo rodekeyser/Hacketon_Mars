@@ -4,4 +4,10 @@
     <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
     <UseEmulator>true</UseEmulator>
   </PropertyGroup>
+<<<<<<< HEAD
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+=======
+>>>>>>> 1e216fddc76c30e35ef3969e61dc31f62d019d3f
 </Project>
