@@ -5,9 +5,19 @@
     xmlns:local="using:hacketonApp"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:lvc="using:LiveCharts.Uwp"
+    xmlns:view="using:hacketonApp.View"
     mc:Ignorable="d">
-
+    
+    
+    
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="250"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <view:Temperature x:Name="TemperatureView" Grid.Row="1" />
+       
     </Grid>
 </Page>
